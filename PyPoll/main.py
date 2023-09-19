@@ -17,8 +17,8 @@ winning_candidate = ""
 winning_count = 0
 
 # Read the csv and convert it into a list of dictionaries
-with open(load_file) as financial_data:
-    reader = csv.reader(financial_data)
+with open(load_file) as election_data:
+    reader = csv.reader(election_data)
 
     # Read the header
     header = next(reader)
